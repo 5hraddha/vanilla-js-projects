@@ -10,7 +10,45 @@
   <link rel="stylesheet" href="pages/index.css">
   <title>Music Player</title>
 </head>
-<body>
-  
+<body class="page">
+  <div class="page__wrapper">
+    <main class="music-player">
+      <section class="music-player__wrapper">
+        <header class="music-player__header">
+          <img class="music-player__logo" src="images/logo.svg" alt="Symphony Music Player's Logo">
+          <h1 class="music-player__title">Symphony</h1>
+          <p class="music-player__subtitle">Music Player</p>
+        </header>
+        <button class="music-player__play-all" type="button">Play All</button>
+        <section>
+          <ul class="tracks">
+            <li class="track">
+              <div class="track__info">
+                <h2 class="track__title">Track Title</h2>
+                <p class="track__artist">Track Artist</p>
+              </div>
+              <div class="track__controllers">
+                <div class="track__progress">
+                  <audio class="track__audio" src=""></audio>
+                  <div class="track__slider-container">
+                    <div class="track__slider"></div>
+                  </div>
+                  <div class="track__duration">
+                    <p class="track__duration-lapsed">1.03</p>
+                    <p class="track__duration-total">3.50</p>
+                  </div>
+                </div>
+                <button class="track__play" type="button">
+                  <img class="track__play-img" src="images/play.svg" alt="Play icon">
+                </button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+  </div>
+  <script src="scripts/tracks.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 </html>

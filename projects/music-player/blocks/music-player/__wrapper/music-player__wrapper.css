@@ -1,0 +1,8 @@
+.music-player__wrapper {
+  margin: 0;
+  padding: 42px 50px;
+  grid-column: 2;
+  background-color: var(--global--primary--Color);
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 0 var(--global--light--ShadowColor);
+}

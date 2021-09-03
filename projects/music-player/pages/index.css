@@ -1,1 +1,38 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Roboto:wght@400;700&display=swap');
+
+/* import normalize.css for better cross-browser consistency */
 @import url(../vendor/normalize.css);
+
+/* import global variables */
+@import url(../variables/variables.css);
+
+/* stylesheets for the block - page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__wrapper/page__wrapper.css);
+
+/* stylesheets for the block - music-player */
+@import url(../blocks/music-player/music-player.css);
+@import url(../blocks/music-player/__wrapper/music-player__wrapper.css);
+@import url(../blocks/music-player/__header/music-player__header.css);
+@import url(../blocks/music-player/__logo/music-player__logo.css);
+@import url(../blocks/music-player/__play-all/music-player__play-all.css);
+@import url(../blocks/music-player/__subtitle/music-player__subtitle.css);
+@import url(../blocks/music-player/__title/music-player__title.css);
+
+/* stylesheets for the block - tracks */
+@import url(../blocks/tracks/tracks.css);
+
+/* stylesheets for the block - track */
+@import url(../blocks/track/track.css);
+@import url(../blocks/track/__controllers/track__controllers.css);
+@import url(../blocks/track/__duration-lapsed/track__duration-lapsed.css);
+@import url(../blocks/track/__duration-total/track__duration-total.css);
+@import url(../blocks/track/__duration/track__duration.css);
+@import url(../blocks/track/__info/track__info.css);
+@import url(../blocks/track/__play-img/track__play-img.css);
+@import url(../blocks/track/__play/track__play.css);
+@import url(../blocks/track/__progress/track__progress.css);
+@import url(../blocks/track/__slider-container/track__slider-container.css);
+@import url(../blocks/track/__slider/track__slider.css);
+@import url(../blocks/track/__title/track__title.css);

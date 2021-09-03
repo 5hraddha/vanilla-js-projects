@@ -1,0 +1,32 @@
+:root{
+  /* COLORS */
+  /* theme colors */
+  --global--primary--Color:       rgba(255, 248, 231, 1);
+  --global--primary--dark--Color: rgba(242, 102, 0, 1);
+
+  /* text colors */
+  --global--dark--Color:      rgba(86, 86, 86, 1);
+  --global--light--Color:     rgba(255, 255, 255, 1);
+
+  /* shadow colors */
+  --global--light--ShadowColor: rgba(242, 102, 0, 0.2);
+
+  /* TYPOGRAPHY */
+  /* font family */
+  --global--sans-serif--FontFamily: 'Roboto', sans-serif;
+
+  /* font size */
+  --global--main-title--FontSize:       50px;
+  --global--sub-title--FontSize:        12px;
+  --global--song-title--FontSize:       16px;
+  --global--song-artist--FontSize:      14px;
+  --global--body--FontSize:             12px;
+
+  /* line height */
+  --global--sm--LineHeight: 1.5;
+  --global--lg--LineHeight: 1.8;
+
+  /* font weight */
+  --global--normal--FontWeight:  400;
+  --global--bold--FontWeight:    700;
+}
