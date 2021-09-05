@@ -1,3 +1,10 @@
 .music-player__title {
-  
+  margin: 0;
+  padding: 0;
+  font-family: var(--music-player__title--cursive--FontFamily);
+  font-size: var(--global--main-title--FontSize);
+  font-weight: var(--global--normal--FontWeight);
+  line-height: var(--global--sm--LineHeight);
+  color: var(--global--primary--dark--Color);
+  letter-spacing: 2px;
 }

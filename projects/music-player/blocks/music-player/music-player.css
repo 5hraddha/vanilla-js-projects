@@ -1,4 +1,5 @@
 .music-player {
+  --music-player__title--cursive--FontFamily: 'Dr Sugiyama', cursive;
   margin: 0 auto;
   padding: 0;
   width: 100%;
