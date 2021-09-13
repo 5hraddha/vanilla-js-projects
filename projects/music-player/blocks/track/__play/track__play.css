@@ -1,3 +1,15 @@
 .track__play {
-  
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.track__play:hover {
+  cursor: pointer;
 }

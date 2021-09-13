@@ -1,3 +1,9 @@
 .track__slider-container {
-  
+  box-sizing: border-box;
+  margin: 20px 0 0;
+  padding: 0;
+  width: 100%;
+  height: 5px;
+  border: 1px solid var(--global--dark--Color);
+  border-radius: 20px;
 }

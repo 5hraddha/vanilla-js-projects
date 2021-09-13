@@ -1,3 +1,9 @@
 .track__artist {
-  
+  margin: 0;
+  padding: 0;
+  font-weight: var(--global--normal--FontWeight);
+  font-size: var(--global--song-artist--FontSize);
+  line-height: var(--global--lg--LineHeight);
+  color: var(--global--dark--Color);
+  letter-spacing: 1px;
 }

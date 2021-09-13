@@ -1,3 +1,10 @@
 .track {
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--global--secondary--Color);
+  border-radius: 20px;
+  border: 1px solid var(--global--primary--dark--Color);
 }

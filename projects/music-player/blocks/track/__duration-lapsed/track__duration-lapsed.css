@@ -1,3 +1,9 @@
 .track__duration-lapsed {
-  
+  margin: 0;
+  padding: 6px 0 0;
+  font-weight: var(--global--normal--FontWeight);
+  font-size: var(--global--body--FontSize);
+  line-height: var(--global--lg--LineHeight);
+  color: var(--global--dark--Color);
+  letter-spacing: 1px;
 }

@@ -25,3 +25,5 @@ const tracks = [
     url: "../audio/chris-tomlin-n-matt-redman-the-wonderful-cross.mp3"
   },
 ];
+
+export default tracks;

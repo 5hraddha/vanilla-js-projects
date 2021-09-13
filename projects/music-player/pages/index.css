@@ -36,3 +36,5 @@
 @import url(../blocks/track/__slider-container/track__slider-container.css);
 @import url(../blocks/track/__slider/track__slider.css);
 @import url(../blocks/track/__title/track__title.css);
+@import url(../blocks/track/__artist/track__artist.css);
+@import url(../blocks/track/__audio/track__audio.css);
