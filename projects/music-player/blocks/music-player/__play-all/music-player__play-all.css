@@ -1,3 +1,13 @@
 .music-player__play-all {
-  
+  margin: 70px 0 0;
+  padding: 10px 40px;
+  align-self: flex-end;
+  background-color: var(--global--secondary--Color);
+  border: 1px solid var(--global--primary--dark--Color);
+  border-radius: 20px;
+  color: var(--global--dark--Color);
+  font-weight: var(--global--bold--FontWeight);
+  font-size: var(--global--song-title--FontSize);
+  line-height: var(--global--lg--LineHeight);
+  letter-spacing: 1px;
 }
