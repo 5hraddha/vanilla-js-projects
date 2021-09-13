@@ -1,6 +1,6 @@
 .music-player__title {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 15px;
   font-family: var(--music-player__title--cursive--FontFamily);
   font-size: var(--global--main-title--FontSize);
   font-weight: var(--global--normal--FontWeight);

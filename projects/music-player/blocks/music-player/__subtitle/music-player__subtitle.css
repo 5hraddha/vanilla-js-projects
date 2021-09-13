@@ -1,3 +1,10 @@
 .music-player__subtitle {
-  
+  margin: 0;
+  padding: 0 0 0 10px;
+  font-family: var(--global--sans-serif--FontFamily);
+  font-size: var(--global--sub-title--FontSize);
+  font-weight: var(--global--normal--FontWeight);
+  line-height: var(--global--lg--LineHeight);
+  color: var(--global--dark--Color);
+  letter-spacing: 1px;
 }
