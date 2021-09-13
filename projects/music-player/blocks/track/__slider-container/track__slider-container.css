@@ -6,4 +6,10 @@
   height: 5px;
   border: 1px solid var(--global--dark--Color);
   border-radius: 20px;
+  background-color: var(--global--secondary--Color);
+  transition: all .5s ease-in-out;
+}
+
+.track__slider-container:hover {
+  cursor: pointer;
 }

@@ -10,4 +10,11 @@
   font-size: var(--global--song-title--FontSize);
   line-height: var(--global--lg--LineHeight);
   letter-spacing: 1px;
+  transition: all .5s ease-in-out;
+}
+
+.music-player__play-all:hover {
+  cursor: pointer;
+  background-color: var(--global--primary--dark--Color);
+  color: var(--global--light--Color);
 }

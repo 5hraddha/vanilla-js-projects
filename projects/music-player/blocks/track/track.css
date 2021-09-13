@@ -7,4 +7,9 @@
   background-color: var(--global--secondary--Color);
   border-radius: 20px;
   border: 1px solid var(--global--primary--dark--Color);
+  transition: all .5s ease-in-out;
+}
+
+.track:hover {
+  background-color: var(--global--secondary--dark--Color);
 }

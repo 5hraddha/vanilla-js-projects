@@ -4,6 +4,7 @@
   --global--primary--Color:       rgba(255, 248, 231, 1);
   --global--primary--dark--Color: rgba(242, 102, 0, 1);
   --global--secondary--Color:     rgba(255, 255, 255, 1);
+  --global--secondary--dark--Color: rgba(255, 225, 204, 0.3);
 
   /* text colors */
   --global--dark--Color:      rgba(86, 86, 86, 1);
