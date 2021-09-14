@@ -1,0 +1,9 @@
+.projects-list__item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-list__item ~ .projects-list__item {
+  margin-top: 20px;
+}

@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&family=Montserrat:wght@400;500;600&display=swap');
 @import url(../vendor/normalize.css);
+
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/projects-list/projects-list.css);
+@import url(../blocks/projects-list/__item/projects-list__item.css);
+@import url(../blocks/projects-list/__link/projects-list__link.css);
