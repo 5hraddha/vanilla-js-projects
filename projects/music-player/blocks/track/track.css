@@ -13,3 +13,7 @@
 .track:hover {
   background-color: var(--global--secondary--dark--Color);
 }
+
+.track ~ .track {
+  margin: 20px 0 0;
+}

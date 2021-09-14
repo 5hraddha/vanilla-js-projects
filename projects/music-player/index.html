@@ -22,32 +22,37 @@
         <button class="music-player__play-all" type="button">Play All</button>
         <section>
           <ul class="tracks">
-            <li class="track">
-              <div class="track__info">
-                <h2 class="track__title">Track Title</h2>
-                <p class="track__artist">Track Artist</p>
-              </div>
-              <div class="track__controllers">
-                <div class="track__progress">
-                  <audio class="track__audio" src=""></audio>
-                  <div class="track__slider-container">
-                    <div class="track__slider"></div>
-                  </div>
-                  <div class="track__duration">
-                    <p class="track__duration-lapsed">1.03</p>
-                    <p class="track__duration-total">3.50</p>
-                  </div>
-                </div>
-                <button class="track__play" type="button">
-                  <img class="track__play-img" src="images/play.svg" alt="Play icon">
-                </button>
-              </div>
-            </li>
           </ul>
         </section>
       </section>
     </main>
   </div>
+
+  <!-- Template for a single soundtrack -->
+  <template id="track-template">
+    <li class="track">
+      <div class="track__info">
+        <h2 class="track__title">Track Title</h2>
+        <p class="track__artist">Track Artist</p>
+      </div>
+      <div class="track__controllers">
+        <div class="track__progress">
+          <audio class="track__audio" src="" preload="metadata"></audio>
+          <div class="track__slider-container">
+            <div class="track__slider"></div>
+          </div>
+          <div class="track__duration">
+            <p class="track__duration-lapsed">0.00</p>
+            <p class="track__duration-total">0.00</p>
+          </div>
+        </div>
+        <button class="track__play" type="button">
+          <img class="track__play-img" src="images/play.svg" alt="Play icon">
+        </button>
+      </div>
+    </li>
+  </template>
+
   <script type="module" src="scripts/index.js"></script>
 </body>
 </html>
