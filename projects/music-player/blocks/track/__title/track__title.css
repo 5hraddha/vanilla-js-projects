@@ -7,3 +7,13 @@
   color: var(--global--dark--Color);
   letter-spacing: 1px;
 }
+
+@media screen and (max-width: 768px) {
+  .track__title {
+    width: 50%;
+    font-size: var(--global--song-artist--FontSize);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

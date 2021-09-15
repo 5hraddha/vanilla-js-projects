@@ -1,4 +1,12 @@
 .music-player__logo {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .music-player__logo {
+    max-width: 80px;
+  }
 }

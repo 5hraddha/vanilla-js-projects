@@ -8,3 +8,10 @@
   border-radius: 20px;
   box-shadow: 4px 4px 10px 0 var(--global--light--ShadowColor);
 }
+
+@media (max-width: 600px) {
+  .music-player__wrapper {
+    border-radius: none;
+    box-shadow: none;
+  }
+}

@@ -18,3 +18,10 @@
   background-color: var(--global--primary--dark--Color);
   color: var(--global--light--Color);
 }
+
+@media screen and (max-width: 768px) {
+  .music-player__play-all {
+    font-size: var(--global--song-artist--FontSize);
+    padding: 10px 30px;
+  }
+}
