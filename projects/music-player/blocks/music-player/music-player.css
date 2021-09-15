@@ -9,7 +9,7 @@
 
 @media (max-width: 980px) {
   .music-player {
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 }
 
