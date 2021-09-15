@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1028px) {
   .track__progress {
     padding: 5px 20px 5px 4px;
   }
