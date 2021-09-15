@@ -11,7 +11,7 @@
 
 @media (max-width: 600px) {
   .music-player__wrapper {
-    border-radius: none;
+    border-radius: 0;
     box-shadow: none;
   }
 }
