@@ -26,15 +26,17 @@
 /* stylesheets for the block - track */
 @import url(../blocks/track/track.css);
 @import url(../blocks/track/__controllers/track__controllers.css);
-@import url(../blocks/track/__duration-lapsed/track__duration-lapsed.css);
-@import url(../blocks/track/__duration-total/track__duration-total.css);
-@import url(../blocks/track/__duration/track__duration.css);
 @import url(../blocks/track/__info/track__info.css);
 @import url(../blocks/track/__play-img/track__play-img.css);
 @import url(../blocks/track/__play/track__play.css);
-@import url(../blocks/track/__progress/track__progress.css);
-@import url(../blocks/track/__slider-container/track__slider-container.css);
-@import url(../blocks/track/__slider/track__slider.css);
 @import url(../blocks/track/__title/track__title.css);
 @import url(../blocks/track/__artist/track__artist.css);
-@import url(../blocks/track/__audio/track__audio.css);
+
+/* stylesheets for the block - song */
+@import url(../blocks/song/song.css);
+@import url(../blocks/song/__audio/song__audio.css);
+@import url(../blocks/song/__duration-lapsed/song__duration-lapsed.css);
+@import url(../blocks/song/__duration-total/song__duration-total.css);
+@import url(../blocks/song/__duration/__duration.css);
+@import url(../blocks/song/__slider-container/song__slider-container.css);
+@import url(../blocks/song/__slider/song__slider.css);

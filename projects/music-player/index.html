@@ -28,6 +28,39 @@
     </main>
   </div>
 
+  <!-- Play All Popup -->
+  <div class="popup">
+    <div class="popup__container">
+      <section class="music-player-all">
+        <div class="music-player-all__info">
+          <h2 class="music-player-all__title">Track Title</h2>
+          <p class="music-player-all__artist">Track Artist</p>
+        </div>
+        <div class="song">
+          <audio class="song__audio" src="" preload="metadata"></audio>
+          <div class="song__slider-container">
+            <div class="song__slider"></div>
+          </div>
+          <div class="song__duration">
+            <p class="song__duration-lapsed">0.00</p>
+            <p class="song__duration-total">0.00</p>
+          </div>
+        </div>
+        <div class="music-player-all__buttons">
+          <button class="music-player-all__button-previous">
+            <img class="music-player-all__button-previous-img" src="" alt="previous song button">
+          </button>
+          <button class="music-player-all__button-play">
+            <img class="music-player-all__button-play-img" src="images/play.svg" alt="play song button">
+          </button>
+          <button class="music-player-all__button-next">
+            <img class="music-player-all__button-next-img" src="" alt="next song button">
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+
   <!-- Template for a single soundtrack -->
   <template id="track-template">
     <li class="track">
@@ -36,14 +69,14 @@
         <p class="track__artist">Track Artist</p>
       </div>
       <div class="track__controllers">
-        <div class="track__progress">
-          <audio class="track__audio" src="" preload="metadata"></audio>
-          <div class="track__slider-container">
-            <div class="track__slider"></div>
+        <div class="song">
+          <audio class="song__audio" src="" preload="metadata"></audio>
+          <div class="song__slider-container">
+            <div class="song__slider"></div>
           </div>
-          <div class="track__duration">
-            <p class="track__duration-lapsed">0.00</p>
-            <p class="track__duration-total">0.00</p>
+          <div class="song__duration">
+            <p class="song__duration-lapsed">0.00</p>
+            <p class="song__duration-total">0.00</p>
           </div>
         </div>
         <button class="track__play" type="button">
@@ -52,7 +85,6 @@
       </div>
     </li>
   </template>
-
   <script type="module" src="scripts/index.js"></script>
 </body>
 </html>

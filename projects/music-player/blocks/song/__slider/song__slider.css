@@ -1,4 +1,4 @@
-.track__slider {
+.song__slider {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,13 +9,13 @@
   border-radius: 20px;
 }
 
-.track__slider::after {
+.song__slider::after {
   content: "";
   position: absolute;
   top: -120%;
-  right: -5px;
-  height: 10px;
-  width: 10px;
+  right: -8px;
+  height: 9px;
+  width: 9px;
   background-color: var(--global--secondary--Color);
   border: 1px solid var(--global--primary--dark--Color);
   border-radius: 50%;

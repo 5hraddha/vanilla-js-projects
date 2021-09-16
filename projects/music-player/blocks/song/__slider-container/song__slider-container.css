@@ -1,4 +1,4 @@
-.track__slider-container {
+.song__slider-container {
   box-sizing: border-box;
   margin: 20px 0 0;
   padding: 0;
@@ -10,6 +10,6 @@
   transition: all .5s ease-in-out;
 }
 
-.track__slider-container:hover {
+.song__slider-container:hover {
   cursor: pointer;
 }

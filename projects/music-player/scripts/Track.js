@@ -17,14 +17,13 @@ class Track {
   _getTrackComponents() {
     this._trackTitle            = this._trackElement.querySelector(".track__title");
     this._trackArtist           = this._trackElement.querySelector(".track__artist");
-    this._trackUrl              = this._trackElement.querySelector(".track__audio");
-    this._trackTotalDuration    = this._trackElement.querySelector(".track__duration-total");
-    this._trackLapsedDuration   = this._trackElement.querySelector(".track__duration-lapsed");
+    this._trackTotalDuration    = this._trackElement.querySelector(".song__duration-total");
+    this._trackLapsedDuration   = this._trackElement.querySelector(".song__duration-lapsed");
     this._trackPlayBtn          = this._trackElement.querySelector(".track__play");
     this._trackPlayBtnImage     = this._trackElement.querySelector(".track__play-img");
-    this._trackAudioElement     = this._trackElement.querySelector(".track__audio");
-    this._trackSliderContainer  = this._trackElement.querySelector(".track__slider-container");
-    this._trackSliderElement    = this._trackElement.querySelector(".track__slider");
+    this._trackAudioElement     = this._trackElement.querySelector(".song__audio");
+    this._trackSliderContainer  = this._trackElement.querySelector(".song__slider-container");
+    this._trackSliderElement    = this._trackElement.querySelector(".song__slider");
   }
 
   _removePlayFromAllSongs() {
@@ -32,7 +31,7 @@ class Track {
       if(trackPlayBtn.classList.contains("js-play")){
         trackPlayBtn.classList.remove("js-play");
         trackPlayBtn.querySelector(".track__play-img").src = "./images/play.svg";
-        const trackAudio = trackPlayBtn.closest(".track__controllers").querySelector(".track__audio");
+        const trackAudio = trackPlayBtn.closest(".track__controllers").querySelector(".song__audio");
         trackAudio.pause();
         trackAudio.currentTime = 0;
       }
@@ -100,7 +99,7 @@ class Track {
 
     this._trackTitle.textContent          = this._songTitle;
     this._trackArtist.textContent         = this._songArtist;
-    this._trackUrl.src                    = this._songUrl;
+    this._trackAudioElement.src           = this._songUrl;
 
     return this._trackElement;
   }
