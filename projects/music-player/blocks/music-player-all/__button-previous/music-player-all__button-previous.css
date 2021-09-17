@@ -1,0 +1,15 @@
+.music-player-all__button-previous {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--global--secondary--Color);
+  transition: all .5s ease-in-out;
+}
+
+.music-player-all__button-previous:hover {
+  cursor: pointer;
+}

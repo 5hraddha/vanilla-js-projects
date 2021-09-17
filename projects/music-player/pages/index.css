@@ -40,3 +40,22 @@
 @import url(../blocks/song/__duration/__duration.css);
 @import url(../blocks/song/__slider-container/song__slider-container.css);
 @import url(../blocks/song/__slider/song__slider.css);
+
+/* stylesheets for the block - popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__close-btn/popup__close-btn.css);
+
+/* stylesheets for the block - music-player-all */
+@import url(../blocks/music-player-all/music-player-all.css);
+@import url(../blocks/music-player-all/__artist/music-player-all__artist.css);
+@import url(../blocks/music-player-all/__button-next-img/music-player-all__button-next-img.css);
+@import url(../blocks/music-player-all/__button-next/music-player-all__button-next.css);
+@import url(../blocks/music-player-all/__button-play-img/music-player-all__button-play-img.css);
+@import url(../blocks/music-player-all/__button-play/music-player-all__button-play.css);
+@import url(../blocks/music-player-all/__button-previous-img/music-player-all__button-previous-img.css);
+@import url(../blocks/music-player-all/__button-previous/music-player-all__button-previous.css);
+@import url(../blocks/music-player-all/__buttons/music-player-all__buttons.css);
+@import url(../blocks/music-player-all/__info/music-player-all__info.css);
+@import url(../blocks/music-player-all/__title/music-player-all__title.css);
