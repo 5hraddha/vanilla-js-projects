@@ -12,10 +12,10 @@
 .song__slider::after {
   content: "";
   position: absolute;
-  top: -120%;
+  top: -150%;
   right: -8px;
-  height: 9px;
-  width: 9px;
+  height: 12px;
+  width: 12px;
   background-color: var(--global--secondary--Color);
   border: 1px solid var(--global--primary--dark--Color);
   border-radius: 50%;

@@ -55,8 +55,21 @@ const pauseSong = (playBtn, audioElement)=> {
   audioElement.pause();
 }
 
+// Stop any playing song in the player and reset the timer
+const removePlayFromAllSongs = () => {
+  document.querySelectorAll(".js-play").forEach(trackPlayBtn => {
+    if(trackPlayBtn.classList.contains("js-play")){
+      trackPlayBtn.classList.remove("js-play");
+      trackPlayBtn.querySelector(".track__play-img").src = "./images/play.svg";
+      const trackAudioElement = trackPlayBtn.closest(".track__controllers").querySelector(".song__audio");
+      pauseSong(trackPlayBtn, trackAudioElement);
+      trackAudioElement.currentTime = 0;
+    }
+  });
+}
+
 // Get song's total duration after the it's metadata is loaded
-const handleLoadedAudioMetadata = (e, songTotalDurationElement) => {
+const handleLoadedAudioMetadata  = (e, songTotalDurationElement) => {
   const songDurationInSecs              = e.target.duration;
   songTotalDurationElement.textContent  = convertSecToMin(songDurationInSecs);
 }
@@ -71,6 +84,7 @@ const handleClosePopup = () => {
 // Open the popup when play all button is clicked
 const handlePlayAll = () => {
   playAllPopup.classList.add("popup_opened");
+  removePlayFromAllSongs();
   loadSong(songs[currentSongIndex]);
   popupSliderElement.style.width = `0%`;
 }
@@ -142,5 +156,4 @@ popupSliderContainer.addEventListener("click", (e) => {
   handleSetProgress(e, popupAudioElement);
 });
 popupAudioElement.addEventListener("ended", handleCurrentSongEnded);
-
 popupAudioElement.onloadedmetadata = e => handleLoadedAudioMetadata(e, popupSongTotalDuration);

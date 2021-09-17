@@ -15,4 +15,5 @@
 
 .music-player-all__button-next:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
