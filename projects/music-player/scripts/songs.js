@@ -15,7 +15,7 @@ const songs = [
     title: "Señor, te necesito",
     artist: "Blanca & Matt Meher",
     url: "./audio/matt-maher-blanca-lord-i-need-you.mp3",
-    cover: "./images/cover-3.jpeg",
+    cover: "./images/cover-3.png",
   },
   {
     title: "Hope for Everyone",

@@ -4,10 +4,13 @@
   width: 100%;
   max-width: 30px;
   height: 30px;
-  border: 0;
-  border-radius: 50%;
   background-color: var(--global--secondary--Color);
-  transition: all .5s ease-in-out;
+  background-image: url(../../../images/previous.svg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
 }
 
 .music-player-all__button-previous:hover {
