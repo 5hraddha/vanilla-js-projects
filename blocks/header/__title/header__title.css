@@ -10,3 +10,9 @@
               3px 3px 0 rgba(255, 0, 70, 0.5),
               2px 2px 0 rgba(0, 0, 0, 0.9);
 }
+
+@media screen and (max-width: 425px) {
+  .header__title {
+    font-size: 30px;
+  }
+}
