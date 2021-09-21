@@ -1,0 +1,5 @@
+.calculator__button_span_two-cols {
+  margin: 0;
+  padding: 0;
+  grid-column: 1 / span 2;
+}
