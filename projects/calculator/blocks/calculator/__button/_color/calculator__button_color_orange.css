@@ -3,3 +3,7 @@
   padding: 0;
   background-color: #f2a228;
 }
+
+.calculator__button_color_orange:active {
+  background-color: #ab721a;
+}

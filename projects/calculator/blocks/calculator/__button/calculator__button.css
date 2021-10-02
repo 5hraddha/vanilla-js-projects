@@ -7,3 +7,7 @@
   background-color: #7f8386;
   color: #fff;
 }
+
+.calculator__button:active {
+  background-color: #b3b9bd;
+}

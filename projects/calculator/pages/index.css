@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
@@ -11,6 +10,7 @@
 @import url(../blocks/calculator/__button/_span/calculator__button_span_two-cols.css);
 @import url(../blocks/calculator/__button/_curved/calculator__button_curved_left.css);
 @import url(../blocks/calculator/__button/_curved/calculator__button_curved_right.css);
+@import url(../blocks/calculator/__button/_size/calculator__button_size_large.css);
 
 @import url(../blocks/display/display.css);
 @import url(../blocks/display/__bottom/display__bottom.css);

@@ -9,8 +9,9 @@
   gap: 1px;
   background-color: #585e61;
   border: 1px solid #585e61;
+  box-shadow: 0 10px 50px 10px rgba(0, 0, 0, .4);
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'sf-pro', sans-serif;
   font-size: 22px;
   line-height: 1;
 }
